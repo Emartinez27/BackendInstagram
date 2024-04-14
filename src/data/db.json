@@ -2,69 +2,33 @@
   "usuarios": [
     {
       "id": 1,
-      "nombreUsuario": "usuario1",
-      "correoElectronico": "usuario1@example.com",
-      "contrasena": "hashed_password_1",
-      "biografia": "Lorem ipsum dolor sit amet...",
-      "fotoPerfil": "url_a_la_foto.jpg"
-    },
-    {
-      "id": 2,
-      "nombreUsuario": "usuario2",
-      "correoElectronico": "usuario2@example.com",
-      "contrasena": "hashed_password_2",
-      "biografia": "Consectetur adipiscing elit...",
-      "fotoPerfil": "url_a_la_foto.jpg"
+      "nombre": "Pepito Perez",
+      "nombreUsuario": "pepe",
+      "password": "123566",
+      "imagenPerfil": "",
+      "imagenPost": "",
+      "mensaje": "Hola mundo, Soy pepe",
+      "seguidas": ["2", "5"]
     }
   ],
   "publicaciones": [
     {
       "id": 1,
       "idUsuario": 1,
-      "descripcion": "Una descripción de la publicación 1",
-      "tipoContenido": "foto",
-      "urlMultimedia": "url_a_la_foto_1.jpg",
-      "fechaPublicacion": "2024-04-11T12:00:00"
-    },
-    {
-      "id": 2,
-      "idUsuario": 2,
-      "descripcion": "Una descripción de la publicación 2",
-      "tipoContenido": "video",
-      "urlMultimedia": "url_al_video_2.mp4",
-      "fechaPublicacion": "2024-04-11T12:30:00"
+      "categoria": "Imagen o video o album",
+      "recursos": [],
+      "etiquetados": ["1", "3"],
+      "likes": ["2", "3"]
     }
   ],
   "comentarios": [
     {
       "id": 1,
-      "idPublicacion": 1,
       "idUsuario": 2,
-      "contenido": "¡Gran foto!",
-      "fechaComentario": "2024-04-11T12:05:00"
-    }
-  ],
-  "seguidores": [
-    {
-      "idUsuarioSeguidor": 1,
-      "idUsuarioSeguido": 2,
-      "fechaInicio": "2024-04-11T12:10:00"
-    }
-  ],
-  "meGusta": [
-    {
-      "id": 1,
-      "idPublicacion": 2,
-      "idUsuario": 1,
-      "fechaMeGusta": "2024-04-11T12:35:00"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1,
       "idPublicacion": 1,
-      "idUsuarioEtiquetado": 2,
-      "fechaEtiqueta": "2024-04-11T12:15:00"
+      "fecha": "11/04/2024",
+      "hora": "02:40 p.m.",
+      "mensaje": "No me gustó la publicación"
     }
   ]
 }
