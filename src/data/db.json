@@ -163,5 +163,13 @@
       "text": "¡Bonita foto!",
       "timestamp": "timestamp_aqui"
     }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "postId": 2,
+      "userId": 2,
+      "like":1
+    }
   ]
 }
