@@ -168,17 +168,6 @@
     {
       "id": 9,
       "userId": 1,
-      "media": "https://i.pinimg.com/564x/67/39/4a/67394a67b242f10f8bf70d87714309cf.jpg",
-      "caption": "",
-      "likes": [],
-      "comments": [],
-      "tag": [],
-      "type": "album",
-      "time": 1691798400000
-    },
-    {
-      "id": 10,
-      "userId": 1,
       "media": "https://i.pinimg.com/564x/ee/58/27/ee5827b6b2f0672e98347c2e5dda88af.jpg",
       "caption": "",
       "likes": [],
@@ -188,7 +177,7 @@
       "time": 1691798400000
     },
     {
-      "id": 11,
+      "id": 10,
       "userId": 1,
       "media": "https://i.pinimg.com/564x/00/fa/d3/00fad3ecb39ed16b6c547fb40f5f9039.jpg",
       "caption": "",
@@ -199,7 +188,7 @@
       "time": 1691798400000
     },
     {
-      "id": 12,
+      "id": 11,
       "userId": 1,
       "media": "https://i.pinimg.com/236x/44/95/45/449545e213492a3a05ec20dffedc9f50.jpg",
       "caption": "",
